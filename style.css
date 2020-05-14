@@ -1,11 +1,6 @@
-/* .container > div {
-    background-color: #eeeeee;
-    padding: 1em;
+body {
+    font-family: 'Roboto', sans-serif;
 }
-
-.container > div:nth-child(odd) {
-    background-color: #dddddd;
-} */
 
 .container {
     margin-left: auto;
@@ -17,6 +12,11 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+img {
+    cursor: pointer;
+    max-width: 100%;
+}
+
 .box1 {
     grid-column: 1/4;
     grid-row: 1;
@@ -24,7 +24,6 @@
 
 .image1 {
     grid-column: 1;
-    
 }
 
 .box2 {
@@ -38,6 +37,6 @@
 
 @media (min-width: 992px) {
     .container {
-        width: 970px;
+        width: 977px;
      }
 }
